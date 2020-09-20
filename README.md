@@ -67,6 +67,8 @@ Input.sort(function (x,y){
                return x.a-y.a;
                });
 ```
+<img src="https://user-images.githubusercontent.com/31956227/93709917-4d9f7100-fb7d-11ea-86b9-fb3e80462ff2.png"/> <br />
+
 ## 아래 조건을 만족시키는 코드를 작성하세요
 ```
 - 자연수 x부터 y까지의 합을 구하는 코드를 작성하세요.
@@ -78,6 +80,7 @@ function sum(x, y){
     return (x+y)*(Math.abs(x-y)+1)/2;
 }
 ```
+<img src="https://user-images.githubusercontent.com/31956227/93709861-dec21800-fb7c-11ea-87f7-ecf04f78e21d.png"/> <br />
 
 ## `아래 문제를 해결하는 코드를 작성하세요.`
 ```
@@ -104,7 +107,7 @@ A.forEach(function (x,y) {
                });
 console.log('범위: '+p+'~'+q+' 최대값: '+max);
 ```
-
+<img src="https://user-images.githubusercontent.com/31956227/93709862-e1247200-fb7c-11ea-907b-6dcdca62fda7.png"/> <br />
 ## 아래 그림은 Tree 구조입니다. 아래 조건이 만족하도록 코드를 작성하세요.
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0aef90b4-d7e3-4e2f-b916-79d0889a3ba5%2FUntitled.png?table=block&id=4e3b9639-4ee8-4296-9044-f9815972f2e8&width=540&userId=cf62e7e6-c77c-4ba6-8ff1-2b6f73339bf2&cache=v2" />
 
