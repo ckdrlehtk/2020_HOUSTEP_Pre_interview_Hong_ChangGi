@@ -107,10 +107,12 @@ console.log('범위: '+p+'~'+q+' 최대값: '+max);
 
 ## 아래 그림은 Tree 구조입니다. 아래 조건이 만족하도록 코드를 작성하세요.
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0aef90b4-d7e3-4e2f-b916-79d0889a3ba5%2FUntitled.png?table=block&id=4e3b9639-4ee8-4296-9044-f9815972f2e8&width=540&userId=cf62e7e6-c77c-4ba6-8ff1-2b6f73339bf2&cache=v2" />
+
 ```
 - 위 그림의 트리 구조를 표현하는 데이터셋을 만드세요.
 - 데이터셋이 주어졌을때 최대값을 찾는 함수를 만드세요.
 ``` 
+
 ### 답:
 1. 트리 구조의 데이터셋을 어떻게 만들어야할지 생각하고 찾아봤지만 기한내의 좋은 방법을 찾아내지 못했습니다.
 2.최대값을 구하는 함수이니 넓이우선 탐색 방법으로 알고리즘을 짜면 될 것 같습니다.
