@@ -164,5 +164,9 @@ console.log('범위: '+p+'~'+q+' 최대값: '+max);
 만약 a라는 컴포넌트가 있고 이 컴포넌트는 재사용 됩니다. <br />
 그런데 이 컴포넌트는 입력된 값을 한번만 사용 하고 그 값을 버리는 컴포넌트인데 cleanup을 해주지 않으면 계속 메모리에 정보가 누적되게 됩니다.<br />
 
+##
 
+### 답:
+
+-[계산기](https://github.com/ckdrlehtk/2020_HOUSTEP_Pre_interview_Hong_ChangGi/files/5251574/build.zip)
 
