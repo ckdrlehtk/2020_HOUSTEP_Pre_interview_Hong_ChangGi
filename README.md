@@ -67,8 +67,16 @@ Input.sort(function (x,y){
                 if(x.a===y.a){ return y.b-x.b}
                return x.a-y.a;
                });
-function sum(a, b){
-    return (a+b)*(Math.abs(a-b)+1)/2;
+```
+## 아래 조건을 만족시키는 코드를 작성하세요
+```
+- 자연수 x부터 y까지의 합을 구하는 코드를 작성하세요.
+- Javascript에서 반복문(for ...)을 사용하지 않아야 함
+```
+### 답:
+```
+function sum(x, y){
+    return (x+y)*(Math.abs(x-y)+1)/2;
 }
 ```
 
@@ -98,35 +106,5 @@ A.forEach(function (x,y) {
 console.log('범위: '+p+'~'+q+' 최대값: '+max);
 ```
 
-
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 아래 그림은 Tree 구조입니다. 아래 조건이 만족하도록 코드를 작성하세요.
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0aef90b4-d7e3-4e2f-b916-79d0889a3ba5%2FUntitled.png?table=block&id=4e3b9639-4ee8-4296-9044-f9815972f2e8&width=540&userId=cf62e7e6-c77c-4ba6-8ff1-2b6f73339bf2&cache=v2" />
